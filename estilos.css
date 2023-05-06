@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "inter";
+    text-decoration: none;
+    list-style: none;
+}
+
+
+header{
+    background: #0a9396;
+    width: 100%;
+    height: 95;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+
+}
+
+.charra{
+    cursor: pointer;
+    transition: all 0.3s;
+    }
+
+.charra:hover{
+    transform: scale(1.2);
+}
+
+.nav,
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 30px;
+    
+    
+}
+
+
+.lista,
+a{
+    color: white;
+    font-size: 18px;
+    
+}
+
+/*main*/
+
+main{
+    background: #f4f3ee;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section{
+    margin-top: 65px;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+
+}
+
+.info h1{
+    font-size: 32px;
+    min-width: 500px;
+    
+}
+
+.info p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #000000;
+
+}
+
+.info a{
+    color: white;
+    background: black;
+    display: inline-block;
+    height: 40px;
+    width: 120;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.foto{
+    padding-left: 100px;
+    
+    
+    
+}
+
+.ciudad{
+    border-radius: 30px;
+}
+
+/*section2*/
+
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    background: #f4f3ee;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    gap: 25px;
+}
+
+.info-empresa{
+    width: 70%;
+    display: flex;
+    align-items: center;
+
+}
+
+.info-empresa p{
+    font-size: 17PX;
+    font-weight: 600;
+    color: #000000;
+}
+
+.section2 h3{
+    font-size: 25px;
+}
+
+
+
