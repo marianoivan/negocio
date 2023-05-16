@@ -1,0 +1,7 @@
+/*tablet*/
+
+@media (max-width: 992px) {
+    .nav{
+        gap: 10px;
+    }
+}

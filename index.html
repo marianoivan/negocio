@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>charrastocs</title>
     <link rel="stylesheet" href="estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--mediqueries-->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter&family=Manjari:wght@100;700&family=Raleway:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/09e14f4b3b.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="mediaqueries">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
     <header>
+
+
+
         <img src="./img/charra22.png" class="charra">
         <nav class="nav">
             <ul class="lista">
@@ -20,10 +26,15 @@
                 <li><a href="#">vendedores</a></li>
             </ul>
         </nav>
+        
+        <input type="checkbox" id="togle">
+        <label for="toggle" class="menu-label">
+            <img src="./img/menu.png" class="menu">
+        </label>
     </header>
     <!--main-->
     <main>
-        <section id="section">
+        <section id="section1">
             <div class="info">
                 <h1>¡vende tus fotografias!</h1>
                 <p>aca encontraras una amplia seleccion de fotografias de alta calidad para satisfacer tus necesidades visuales.un catalogo con gran de variedad de foto de diferentes categorias.
@@ -41,6 +52,57 @@
                 <p>Trabajamos con fotógrafos y creadores de contenido de todo el mundo para garantizar una amplia variedad de imágenes y estilos. Nuestro proceso de selección de fotos es riguroso, asegurando que todas las imágenes que ofrecemos cumplan con los más altos estándares de calidad y estén libres de derechos de autor.</p>
             </div>
         </section>
+        <section class="section3">
+            <div class="titulo3">
+                <h3>Nuestras Ventajas</h3>
+            </div>
+            <div class="ventajas-container">
+                <div class="ventajas1">
+                    <h3 class="titulo-ventajas">calidad</h3>
+                    <div class="iconos"> <img src="./img/galeria.png"></div>
+                    <div class="texto-p">
+                        <p>En nuestro negocio de fotos stock, nos enorgullece ofrecer imágenes de la más alta calidad y autenticidad. Cada una de nuestras fotografías ha sido cuidadosamente seleccionada para garantizar su excelencia visual. Capturamos momentos reales y emociones auténticas, lo que permite a nuestros clientes encontrar imágenes con un toque especial y genuino.</p>
+                    </div>
+                </div>
+                <div class="ventaja2">
+                    <h3 class="titulo-ventajas">fotografos</h3>
+                    <div class="iconos"> <img src="./img/iconodecamara.png"></div>
+                    <div class="texto-p">
+                        <p>Nos asociamos con fotógrafos talentosos y reconocidos de la industria para brindarte una colección única y diversa de imágenes. Nuestra colaboración con estos profesionales de renombre garantiza que nuestras fotografías sean capturadas por expertos en su campo. Trabajamos con fotógrafos que han dejado una huella en la industria, brindando una garantía de calidad y originalidad en cada imagen que ofrecemos.</p>
+                    </div>
+                </div>
+                <div class="ventaja3">
+                    <h3 class="titulo-ventajas">precios</h3>
+                    <div class="iconos"><img src="./img/mejor-precio.png"></div>
+                    <div class="texto-p">
+                        <p>En nuestro negocio de fotos stock, nos esforzamos por ofrecer precios competitivos y asequibles sin comprometer la calidad. Entendemos las necesidades de nuestros clientes, desde diseñadores hasta agencias de publicidad y blogueros, y nos aseguramos de que nuestros precios se adapten a diferentes presupuestos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--section 4-->
+        <section class="section4">
+            <div class="contactos">
+                <h3>contactanos</h3>
+                <i class="fa-solid fa-phone" style="color: #34dfdc;">0 11233455</i>
+                <i class="fa-solid fa-envelope" style="color: #25c6ef;">charra@gmail.com</i>
+                <i class="fa-solid fa-location-dot" style="color: #2fe1ee;">calle 13</i>
+            </div>
+            <div> <img src="./img/contacto.png"></div>
+        </section>
+        <!--footer-->
+        <footer>
+            <div class="img-footer"><img src="./img/charra22.png"></div>
+            <div>
+                <div class="titulo-redes">
+                    <h3>redes sociales</h3>
+                </div>
+                <div class="redes-sociales">
+                    <i class="fa-brands fa-twitter" style="color: white; font-size: 30px;"></i>
+                    <i class="fa-brands fa-square-instagram" style="color:white; font-size: 30px;"></i>
+                </div>
+            </div>
+        </footer>
     </main>
 </body>
 </html>
