@@ -1,7 +1,230 @@
 /*tablet*/
 
 @media (max-width: 992px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        width: 100vh;
+        
+        
+    }
+
+
+
+
     .nav{
         gap: 10px;
+        width: 50%;
     }
+
+    .lista{
+        position: absolute;
+        top: 90px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background-color: #cae9ff;
+        max-width: 750px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-radius: 0px 0px 15px 15px;
+        border: 2px solid #0a9396;
+        border-top: none;
+        display: none;
+            
+
+    }
+
+    .menu-label{
+    display: flex;
+    flex-direction: row-reverse;
+    order: 1;
+    }
+
+    .menu-label img{
+        width: 25px;
+        margin: 20px;
+    }
+
+    #togle:checked + .lista{
+        display: flex;
+    }
+
+/*section*/
+
+.section1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.info h1{
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 50px;
+    
+}
+
+.info p{
+    width: 90%;
+    max-width: 500px;
+    font-size: 20px;
+    
+
+}
+
+.foto{
+    display: none;
+}
+
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.section2 h3{
+    font-size: 20px;
+    max-width: 500px;
+}
+
+.info-empresa p{
+    max-width: 500px;
+    width: 90%;
+}
+
+.section3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo3{
+    max-width: 500px;
+
+}
+
+.ventajas-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.texto-p{
+    padding: 10px 15px 10px 15px;
+}
+
+.section4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+}
+
+
+/*celular*/
+
+@media (max-width: 320px) {
+    header{
+        max-width: 100%;
+    }
+
+body{
+    width: 100%;
+}
+
+
+
+
+    .section1{
+        max-width: 100%;
+    }
+    
+    .info h1 {
+        font-size: 60px; 
+        max-width: 90%;
+
+    }
+
+    .info p{
+        font-size: 30px;
+        
+        
+    }
+
+    .section2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .section2 h3{
+        font-size: 40px;
+    }
+
+    .section2 p{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .section3{
+        max-width: 100%;
+    }
+
+    .section3 h3{
+        font-size: 40px;
+    }
+
+.section3{
+    max-width: 100%;
+}
+
+
+    .texto-p{
+        width: 100%;
+        margin-left: auto;
+        margin-right: 30px;
+    }
+
+    .contactos h3{
+        font-size: 40px;
+    }
+
+    }
+
+    .ventajas-container{
+        max-width: 100%;
+    }
+
+    .section4{
+        max-width: 100%;
+    }
+
+    footer{
+        max-width: 100%;
+    }
+
 }
