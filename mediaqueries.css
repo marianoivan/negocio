@@ -6,6 +6,7 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+        border: 1px solid red;
     }
 
     body{
@@ -58,21 +59,20 @@
 
 /*section*/
 
-.section1{
-    width: 100%;
+#section1{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    
 }
 
 
 
 .info h1{
-    max-width: 500px;
-    width: 90%;
     margin: 0 auto;
-    font-size: 50px;
+    font-size: 10px;
+    margin-right: 200px;
     
 }
 
@@ -147,84 +147,72 @@
 /*celular*/
 
 @media (max-width: 320px) {
-    header{
-        max-width: 100%;
-    }
-
-body{
+    body {
     width: 100%;
-}
-
-
-
-
-    .section1{
-        max-width: 100%;
     }
-    
+
+    .menu-label {
+    position: absolute;
+    left: 10px;
+    right: 5px;
+    }
+
+    #section1 {
+    width: 100%;
+    }
+
     .info h1 {
-        font-size: 60px; 
-        max-width: 90%;
-
-    }
-
-    .info p{
-        font-size: 30px;
-        
-        
-    }
-
-    .section2{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-width: 100%;
-    }
-
-    .section2 h3{
+        margin-left: 0;
+        padding-left: 20px;
         font-size: 40px;
     }
 
-    .section2 p{
-        font-size: 30px;
-        width: 100%;
+    .info p {
+    font-size: 20px;
+    line-height: 1;
     }
 
-    .section3{
-        max-width: 100%;
-    }
-
-    .section3 h3{
-        font-size: 40px;
-    }
-
-.section3{
+    .section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 100%;
+    }
+
+
+
+.titulo3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 .titulo3 h3{
+    font-size: 40px;
 }
 
 
-    .texto-p{
-        width: 100%;
-        margin-left: auto;
-        margin-right: 30px;
+    .section2 p {
+    font-size: 30px;
     }
 
-    .contactos h3{
-        font-size: 40px;
+    .section3 h3 {
+    font-size: 40px;
     }
 
+    .texto-p {
+    width: 100%;
+    margin-left: auto;
+    margin-right: 30px;
     }
 
-    .ventajas-container{
-        max-width: 100%;
+    .contactos h3 {
+    font-size: 40px;
     }
 
-    .section4{
-        max-width: 100%;
+    .section4 img {
+    width: 300px;
+    margin-top: 20px;
     }
-
-    footer{
-        max-width: 100%;
-    }
-
 }
+Con esta corrección, los estilos para el h1 dentro de la clase .info debería

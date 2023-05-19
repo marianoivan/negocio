@@ -61,7 +61,6 @@ main{
 #section1{
     margin-top: 65px;
     padding: 70px 0px;
-    max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,13 +70,12 @@ main{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 50%;
+    max-width: 50%;
 
 }
 
 .info h1{
     font-size: 32px;
-    min-width: 500px;
     
 }
 
